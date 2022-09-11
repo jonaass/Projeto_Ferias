@@ -1,0 +1,53 @@
+.pai{
+    background: linear-gradient(180deg, #022222 0%, rgba(0, 0, 0, 0.96) 27.78%, #7D7D7D 69.44%, #6A6A6A 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .oi{
+        background-color: #fff;
+        padding: 100px 250px 120px 250px;
+        margin-top: -32px;
+    }
+    .bem-vindo img{
+         width: 250px;
+    }
+    .bem-vindo{
+        text-align: center;
+        margin-bottom: 42px;
+    }
+    .entra{
+        text-align: right;
+        margin-top: 50px;
+    }
+    .invalido{
+        display: flex;
+        justify-content: center;
+        color: #ff1e00;
+        letter-spacing: 1px;
+        position: relative;
+        top: 40px;
+        height: 50px;
+    }
+    label {
+        font: 600 16px 'Inter';
+        color: #463F3F;
+        width: 150px;
+    }
+    input[type=text], input[type=password] {
+        border: 1.9px solid #656565;
+        margin-top: 10px;
+    }
+    .cadastrar{
+        text-align: center;
+    }
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        color: red;
+    }
+    .faça{
+        margin: 10px;
+    }
+
+}

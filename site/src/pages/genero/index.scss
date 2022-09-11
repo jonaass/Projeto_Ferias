@@ -1,0 +1,37 @@
+.genero{
+
+    .coracao{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        
+    }
+    
+    .coracao img{
+    width: 100px;
+    cursor: pointer;
+    }
+
+    .coracao{
+        text-align: center;
+    }
+
+    .linha2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .linha2 img{
+        width: 100px;
+        cursor: pointer;
+    }
+
+    .a{
+        border: 5px solid black;
+    }   
+
+
+
+}

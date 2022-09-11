@@ -1,0 +1,51 @@
+
+
+    .conteudo {
+        display: flex;
+        align-items: flex-start;
+        
+        padding: 20px 60px;
+        background-color: #F5F6FA;
+        flex-grow: 1;
+    }
+    .conteudo > section {
+        flex-grow: 5;
+    }
+
+
+    label {
+        width: 120px;
+    }
+
+    .upload-capa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid black;
+        border-radius: 3px;
+        height: 350px;
+        width: 250px;
+        cursor: pointer;
+    }
+    .upload-capa img{
+        width: 100px;
+    }
+
+    .form-colums {
+        display: flex;
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+    .form-colums > div:nth-child(1) {
+        margin-right: 50px;
+    }
+
+    textarea {
+        width: 300px;
+        height: 250px;
+    }
+
+    .btnSalvar {
+        flex-grow: 1;
+        text-align: right;
+    }
