@@ -1,37 +1,36 @@
-.menu{
-    .lupa{
-        width: 30px;
-        margin-left: 1em;
-        cursor: pointer;
-        margin-bottom: -7px;
+.menu {
+
+    .barra-pesquisa input {
+        margin-left: 1rem;
+        margin-top: 1.4rem;
+        width: 19rem;
+        height: 1.6rem;
     }
-    .barra-pesquisa input{
-        margin-left: 10px;
-        margin-top: 23px;
-        width: 310px;
-        height: 26px;
-    }
-    .capa{
-        margin-left: 28px;
-        margin-top: 22px;
-    }
-    .mob{
-        margin-left: 28px;
-    }
-    .capa2, .capa, .capa3{
-        width: 315px;
-        height: 495px;
-        margin-top: 46px;
-        cursor: pointer;
-    }
-    .animes{
-        display: flex;
-        justify-content: space-around;
-    }
-    h1{
+
+    h1 {
         text-align: center;
         cursor: pointer;
     }
 
-    
+
+
+    .categorias {
+        .rec.rec-arrow:disabled {
+            visibility: hidden;
+        }
+
+        .ezKHIn,.cVXxbE {
+            visibility: hidden;
+        }
+
+        .rec.rec-arrow {
+            background: linear-gradient(180deg, #CBCBCB 0%, rgba(24, 24, 25, 0.51) 100%);
+        }
+
+        .rec.rec-arrow:hover {
+            background: linear-gradient(180deg, #5C5A5A 0%, rgba(75, 74, 86, 0.51) 100%);
+        }
+    }
+
+
 }
